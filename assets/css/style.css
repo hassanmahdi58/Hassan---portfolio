@@ -102,10 +102,3 @@ img:hover{
   opacity: .5;
   transition: .9s;
 }
-.img-area h1{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-}
