@@ -137,13 +137,7 @@ p {
     border: solid;
     margin: 5px;
 }
-
-.my-work h1 {
-    padding: 20px;
-    background: #13293d;
-    color: #fff;
-    flex-grow: 2px;
-  }
+  
 .my-work1 {
     margin-bottom: 20px;
     border-color: #14c8e7 solid;
