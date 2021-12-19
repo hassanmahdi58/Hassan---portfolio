@@ -93,6 +93,7 @@ p {
     float: right;
     text-align: center;
     padding-left: 40px;
+    
   
     
     
@@ -232,10 +233,10 @@ p {
     font-size: 20px;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1000px) {
     section,
     main,
     nav {
-      flex-direction: column;
+      flex-direction:column-reverse;
     }
 }
