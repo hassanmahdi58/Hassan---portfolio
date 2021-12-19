@@ -149,6 +149,12 @@ p {
     float: right;
     border: solid;
     margin: 5px;
+
+}
+
+img:hover {
+ opacity:  .5;
+ transition: .9s;
 }
 
 .my-work1 {
@@ -219,7 +225,7 @@ p {
     
 
 }
-/* footer class element */
+
 .footer {
     
     padding: 30px;
@@ -233,10 +239,23 @@ p {
     font-size: 20px;
 }
 
-@media screen and (max-width: 1000px) {
-    section,
-    main,
-    nav {
-      flex-direction:column-reverse;
+@media screen and (max-width: 992px) {
+    .content {
+      width: 100%;
     }
-}
+    
+    header {
+      background: #772014;
+    }
+  }
+  
+  
+  @media screen and (max-width: 768px) {
+    .my-work {
+      width: 100%;
+    }
+    
+    header {
+      background: #8ac4ff;
+    }
+  }
