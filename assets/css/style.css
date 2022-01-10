@@ -10,24 +10,24 @@ body {
 }
 
 /* Class selector element */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #134b63;
     color: #ffffff;
 }
 /* h1 font size and display class */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     background-color: red;
 }
 
-.header h1 .lio {
+header h1 .lio {
     color: #d9dcd6;
 }
 
-.header div {
+header div {
     padding-top: 20px;
     margin-right: 20px;
     float: right;
@@ -36,11 +36,11 @@ body {
 
 }
 
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 100px;
     border-bottom: solid red;
@@ -65,17 +65,28 @@ p {
     background-image: url("./images/banner1.jpg");
     background-size: cover;
     background-position: center;
+    flex-direction: column;
     
 }
 
+.banner h2{
+    color: turquoise;
+    font-size:200%;
+    position:absolute;
+    right:3%;
+    margin-top: 130px;
+}
 .float-left {
     float: left;
-    margin-right: 25px;
+    
 }
 
 .float-center {
     float: right;
-    margin-left: 25px;
+    
+}
+.float-left {
+    float: center;
 }
  /* class selectors body */
 .content {
@@ -143,6 +154,60 @@ p {
     background-color: turquoise;
     right: 200px;
 }
+
+.my-work1 h2 {
+    display:inline-block;
+    font-size: 30px;
+    padding:4px;
+    border-style:solid;
+    margin-top: 60px;
+    margin-left: -290px;
+    float: left;
+    color: rgb(234, 238, 237);
+    background-color: turquoise;
+   
+}
+
+.my-work1 h1 {
+    display: inline-block;
+    font-size: 30px;
+    padding: 4px;
+    float: left;
+    border-style: solid;
+    margin-top: 70px;
+    margin-left: -290px;
+    color: white ;
+    background-color: turquoise ;
+   
+}
+
+.my-work1 h3{
+    display:inline-block;
+    font-size: 30px;
+    padding:4px;
+    border-style:solid;
+    margin-top: 70px;
+    margin-left: -290px;
+    float: left;
+    color: white ;
+    background-color: turquoise ;
+}
+
+.my-work1 h4{
+    display:inline-block;
+    font-size: 30px;
+    padding:4px;
+    border-style:solid;
+    margin-top: 70px;
+    margin-left: -290px;
+    float: left;
+    color: white ;
+    background-color: turquoise ;
+   
+
+}
+
+
 .my-work img {
     max-height: 350px;
     width: 60%;
@@ -239,23 +304,5 @@ img:hover {
     font-size: 20px;
 }
 
-@media screen and (max-width: 992px) {
-    .content {
-      width: 100%;
-    }
-    
-    header {
-      background: #772014;
-    }
-  }
-  
-  
-  @media screen and (max-width: 768px) {
-    .my-work {
-      width: 100%;
-    }
-    
-    header {
-      background: #8ac4ff;
-    }
-  }
+
+   
