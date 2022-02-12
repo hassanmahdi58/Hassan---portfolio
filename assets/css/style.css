@@ -49,7 +49,7 @@ section{
 
 .btn{
     padding:.7rem 3rem;
-    background:rgb(102, 11, 11);
+    background:rgb(175, 45, 45);
     color:#fff;
     cursor: pointer;
     margin-top: 1rem;
@@ -85,7 +85,7 @@ header{
     z-index: 1000;
     height:100%;
     width:35rem;
-    background:#644949;
+    background:#152525;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -99,7 +99,7 @@ header .user img{
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 1rem;
-    border:.7rem solid yellow;
+    border:.7rem solid var(--yellow);
 }
 
 header .user .name{
@@ -126,7 +126,7 @@ header .navbar ul li a{
     display: block;
     padding:1rem;
     margin:1.5rem 0;
-    background:#333;
+    background:rgb(11, 116, 202);
     color:#fff;
     font-size: 2rem;
     border-radius: 5rem;
