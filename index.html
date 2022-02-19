@@ -4,180 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hassan - portfolio</title>
+    <link rel="icon" type="image/x-icon" href="./assets/css/images/banner2.jpg">
 
-    <!-- font awesome cdn link  -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
-
-    <!-- custom css file link  -->
+   <!--Boostrap links-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    
+   <!--CSS link-->
     <link rel="stylesheet" href="./assets/css/style.css">
 
 </head>
 <body>
     
-<!-- header section starts  -->
 
+<!-- Header section-->
 <header>
-
-    <div class="user">
-        <img src="./assets/css/images/banner2.jpg" alt="">
-        <h3 class="name">Hassan Abdirahman</h3>
-        <p class="post">full stack developer</p>
-    </div>
-
-    <nav class="navbar">
-        <ul>
-            <li><a href="#home">home</a></li>
-            <li><a href="#about">about</a></li>
-            <li><a href="#education">education</a></li>
-            <li><a href="#portfolio">portfolio</a></li>
-            <li><a href="#contact">contact</a></li>
+    <nav class="navbar background h-nav-resp">
+        <ul class="nav-list v-class-resp">
+        <div class="logo"><img src="./assets/css/images/banner2.jpg" alt="logo"></div>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
         </ul>
-    </nav>
-
+        
+        </nav>
 </header>
 
-<!-- header section ends -->
-
-<div id="menu" class="fas fa-bars"></div>
-
-<!-- home section starts  -->
-
+<!--Home section-->
 <section class="home" id="home">
 
     <h3>HI THERE !</h3>
-    <h1>I'M <span>Hassan Abdirahman</span></h1>
+    <h1>I'M <span>Hassan Abdirahman,</span></h1>
     <p>I am an extremely motivated and committed individual, willing to work hard with much enthusiasm. An Excellent communication skills willing to work any one and any where . Honest and reliable good team player and team work .currently doing full stack course at university of Birmingham.
     </p>
-    <a href="#about"><button class="btn">about me <i class="fas fa-user"></i></button></a>
+    <a href="./Profile (1).pdf"><button type="button" class="btn btn-primary">Download My CV <i class="fas fa-download"></i></button></a>
+   
 
 </section>
-
-<!-- home section ends -->
-
-<!-- about section starts  -->
-
-<section class="about" id="about">
-
-<h1 class="heading"> <span>about</span> me </h1>
-
-<div class="row">
-
-    <div class="info">
-        <h3> <span> name : </span> Hassan Abdirahman </h3>
-        
-        <h3> <span> qualification : </span>  NCSC </h3>
-        <h3> <span> post : </span> full stack  developer </h3>
-        
-        <a href="#"><button class="btn"> download CV <i class="fas fa-download"></i> </button></a>
+<!--Portfolio section-->
+<section id="portfolio">
+    <div class="h">
+    <h1>Portfolio</h1>
     </div>
-
-    <div class="counter">
-
-        <div class="box">
-            <span>2+</span>
-            <h3>years of experience</h3>
-        </div>
-
-        <div class="box">
-            <span>100+</span>
-            <h3>porject completed</h3>
-        </div>
-
-        <div class="box">
-            <span>430+</span>
-            <h3>happy clients</h3>
-        </div>
-
-        <div class="box">
-            <span>12+</span>
-            <h3>awards won</h3>
-        </div>
-
-    </div>
-
-</div>
-
-</section>
-
-<!-- about section ends -->
-
-<!-- education section starts  -->
-
-<section class="education" id="education">
-
-<h1 class="heading"> my <span>education</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2016</span>
-        <h3>Engineering/industrial management</h3>
-        <p>university of Johhanesburg</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2017</span>
-        <h3>CCNA </h3>
-        <p> Cisco Certification CCNA Routing and Switching</p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2018</span>
-        <h3>CCNA Security</h3>
-        <p>Cisco Certification CCNA Security </p>
-    </div>
-
-    <div class="box">
-        <i class="fas fa-graduation-cap"></i>
-        <span>2019</span>
-        <h3>front end development</h3>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati quos alias praesentium. Id autem provident laborum quae, distinctio eaque temporibus!</p>
-    </div>
-
     
+<div class="imageGrid">
+    <a href="https://hassanmahdi58.github.io/Day-Planer/"><div class="tile" style="background-image: url('./assets/css/images/dayplaner.gif');">
+      <div class="textWrapper"><h2>Day Planer project</h2>
+        <div class="content">This works with daily scheduele where you can save your daily activities and future one . i made in this app time and description area and than save button where you need to click every time you write a note to save it.
+        </div>
+      </div>
+    </a>
+    </div><!--
+    --><a href="https://hassanmahdi58.github.io/city-health/"><div class="tile" style="background-image: url('./assets/css/images/cityhealth.png');">
+    <div class="textWrapper"><h2>City Health Project</h2>
+      <div class="content">This project is an application that displays statistics about COVID-19 and air quality about a desired place. The motivation behind this application is to help people to stay safe in the current environment at home and elsewhere, environmentally and pandemic wise.</div>
+    </div>
+     </a>
+    </div><!--
+  --><a href="./Profile (1).pdf"><div class="tile" style="background-image: url('./assets/css/images/weather.png');">
+    <div class="textWrapper"><h2>Weather App</h2>
+      <div class="content">This will help you to search the weather for daily basis and the app will show you the current day and 5 forecast day weather</div>
+    </div>
+    </div>
+    </a>
 </section>
-
-<!-- education section ends -->
-
-<!-- portfolio section starts  -->
-
-<section class="portfolio" id="portfolio">
-
-<h1 class="heading"> my <span>portfolio</span> </h1>
-
-<div class="box-container">
-
-    <div class="box">
-        <a href="https://github.com/hassanmahdi58"><img src="./assets/css/images/banner1.jpg"  alt=""></a>
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/hassanmahdi58"><img src="./assets/css/images/banner3.png" alt=""></a>
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/hassanmahdi58"><img src="./assets/css/images/banner6.jpg" alt=""></a>
-    </div>
-
-    <div class="box">
-        <a href="https://github.com/hassanmahdi58"><img src="./assets/css/images/banner5.jpg" alt=""></a>
-    </div>
-
-
-</div>
-
-</section>
-
-<!-- portfolio section ends -->
-
-<!-- contact section starts  -->
-
 <section class="contact" id="contact">
 
-<h1 class="heading"> <span>contact</span> me </h1>
+<h1> contact me </h1>
 
 <div class="row">
 
@@ -186,10 +80,10 @@
         <h3 class="title">contact info</h3>
 
         <div class="info">
-            <h3> <i class="fas fa-envelope"></i>hassanmahdi58</h3>
-            <h3> <i class="fas fa-phone"></i> +447413175132</h3>
+            <h3> <i class="fas fa-envelope"></i>hassanmahdi58@gmail.com</h3>
+            <h3> <i class="fas fa-phone"></i> +447413-175-132</h3>
             <h3> <i class="fas fa-phone"></i> +111-222-3333 </h3>
-            <h3> <i class="fas fa-map-marker-alt"></i> London, UK </h3>
+            <h3> <i class="fas fa-map-marker-alt"></i> Birmingham, UK </h3>
         </div>
 
     </div>
@@ -208,35 +102,16 @@
 
 </section>
 
-<!-- contact section ends -->
-
-
-<!-- scroll top button  -->
-
-<a href="#home" class="top">
-    <img src="images/scroll-top-img.png" alt="">
-</a>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!-- jquery cdn link  -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="./assets/css/script.js"></script>
-
-<!-- Source Youtube -->
+<footer class="mainfooter" role="contentinfo">
+      
+          
+          <div class="col-md-12 copy">
+              <p class="text-center">&copy; Copyright 2022 - Hassan Abdirahman.  All rights reserved.</p>
+          </div>
+      </div>
+  
+    
+  </footer>
+    
 </body>
 </html>
