@@ -5,14 +5,14 @@
     * CSS
     * Boostrap
 # About Me Section
+![Screenshot (93)](https://user-images.githubusercontent.com/94930434/167175741-411169a4-ae36-4285-a262-90d85c32b7ac.png)
 
-![Screenshot 2022-02-19 at 18 16 15](https://user-images.githubusercontent.com/94930434/154813688-d7498d80-46f2-4a82-bc11-71b6f2441a7f.png)
+
 # Porfolio 
 
-![Screenshot 2022-02-19 at 18 16 29](https://user-images.githubusercontent.com/94930434/154813690-8aaed8bb-6f00-4867-8b24-87204981f9cf.png)
+![Screenshot (94)](https://user-images.githubusercontent.com/94930434/167175776-1196535f-166a-4840-8484-8a71e712b25d.png)
+
 # Contact Section
 
-![Screenshot 2022-02-19 at 18 16 56](https://user-images.githubusercontent.com/94930434/154813692-1bebce59-5fd6-4da3-99e9-dc434b3fdc4f.png)
-# Footer
+![Screenshot (95)](https://user-images.githubusercontent.com/94930434/167175818-1d65d1e9-5264-41b8-bee3-cfcb3934a1eb.png)
 
-![Screenshot 2022-02-19 at 18 17 21](https://user-images.githubusercontent.com/94930434/154813695-64f3fde3-7ff8-4512-8226-4449a40ec49e.png)
